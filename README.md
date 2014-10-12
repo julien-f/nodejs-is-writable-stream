@@ -19,7 +19,7 @@ Download [manually](https://github.com/julien-f/nodejs-is-writable-stream/releas
 ## Example
 
 ```javascript
-var isWritableStream = makeError('is-writable-stream');
+var isWritableStream = require('is-writable-stream');
 
 isWritableStream(null);
 // → false
