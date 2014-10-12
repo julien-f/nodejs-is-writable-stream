@@ -24,10 +24,10 @@ var isWritableStream = makeError('is-writable-stream');
 isWritableStream(null);
 // → false
 
-isWritableStream(process.stdout);
+isWritableStream(process.stdin);
 // → false
 
-isWritableStream(process.stdin);
+isWritableStream(process.stdout);
 // → true
 ```
 
