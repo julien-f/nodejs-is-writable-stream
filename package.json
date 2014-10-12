@@ -1,0 +1,29 @@
+{
+  "name": "is-writable-stream",
+  "version": "0.0.0",
+  "license": "ISC",
+  "description": "Check whether a value is a writable stream",
+  "keywords": [
+    "writable",
+    "stream"
+  ],
+  "homepage": "https://github.com/julien-f/nodejs-is-writable-stream",
+  "bugs": "https://github.com/julien-f/nodejs-is-writable-stream/issues",
+  "author": "Julien Fontanet <julien.fontanet@isonoe.net>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/julien-f/nodejs-is-writable-stream.git"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "leche": "^1.0.1",
+    "mocha": "^1.21.4",
+    "readable-stream": "^1.1.13"
+  },
+  "scripts": {
+    "test": "mocha -R list index.spec.js"
+  },
+  "files": [
+    "index.js"
+  ]
+}
